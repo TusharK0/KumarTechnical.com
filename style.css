@@ -12,7 +12,7 @@ a{ text-decoration: none; }
 #loading{
 	position: fixed;
 	height: 100vh; width: 100%;
-	background: #fff url('gif/preloader.gif') no-repeat center;
+	background: #fff url('preloader.gif') no-repeat center;
 	z-index: 999999;
 	background-size: 5% 10%;	
 }
@@ -28,14 +28,6 @@ a{ text-decoration: none; }
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.bac__img2{
-    margin-top: -2rem;
-    height: 20vh; width: 100%;
-    background-image:url('header-mask.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-
 .main_name,#button,#navbarNav ul li a{
     transition: all .5s;
 }
